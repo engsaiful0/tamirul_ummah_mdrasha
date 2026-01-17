@@ -1,0 +1,22 @@
+<?php
+return [
+    'parent_dashboard' => 'অভিভাবক ড্যাশবোর্ড',
+    'my_children' => 'আমার সন্তানরা',
+    'calendar' => 'ক্যালেন্ডার',
+    'total_subject' => 'মোট বিষয়',
+    'total_notice' => 'মোট বিজ্ঞপ্তি',
+    'total_exam' => 'মোট পরীক্ষা',
+    'total_online_exam' => 'মোট অনলাইন পরীক্ষা',
+    'total_teachers' => 'মোট শিক্ষক',
+    'total_issued_book' => 'মোট ইস্যু করা বই',
+    'total_pending_home_work' => 'মোট বকেয়া হোমওয়ার্ক',
+    'total_attendance_in_current_month' => 'বর্তমান মাসে মোট উপস্থিতি',
+    'notice' => 'বিজ্ঞপ্তি',
+    'exam' => 'পরীক্ষা',
+    'online_exam' => 'অনলাইন পরীক্ষা',
+    'teachers' => 'শিক্ষকগণ',
+    'issued_book' => 'ইস্যু করা বই',
+    'pending_home_work' => 'বকেয়া হোমওয়ার্ক',
+    'attendance_in_current_month' => 'বর্তমান মাসে উপস্থিতি',
+    'parent_id' => 'অভিভাবক আইডি',
+];

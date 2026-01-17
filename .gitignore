@@ -1,0 +1,16 @@
+node_modules
+.env
+vendor
+/vendor
+/node_modules
+/storage/*.key
+storage/*.key
+.env.*
+/bootstrap/cache/*.php
+bootstrap/cache/*.php
+/public/storage
+public/storage
+/app/Helpers/Helper_18_11_2025.php
+
+
+

@@ -1,0 +1,22 @@
+<?php
+return [
+    'parent_dashboard' => 'Tablero de padres',
+    'my_children' => 'Mis hijos',
+    'calendar' => 'Calendario',
+    'total_subject' => 'Total de asignaturas',
+    'total_notice' => 'Total de avisos',
+    'total_exam' => 'Total de exámenes',
+    'total_online_exam' => 'Total de exámenes en línea',
+    'total_teachers' => 'Total de maestros',
+    'total_issued_book' => 'Total de libros emitidos',
+    'total_pending_home_work' => 'Total de tareas pendientes',
+    'total_attendance_in_current_month' => 'Total de asistencia en el mes actual',
+    'notice' => 'Aviso',
+    'exam' => 'Examen',
+    'online_exam' => 'Examen en línea',
+    'teachers' => 'Maestros',
+    'issued_book' => 'Libro emitido',
+    'pending_home_work' => 'Tarea pendiente',
+    'attendance_in_current_month' => 'Asistencia en el mes actual',
+    'parent_id' => 'ID del padre',
+];

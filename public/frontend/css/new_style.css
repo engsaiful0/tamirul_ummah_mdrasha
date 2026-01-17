@@ -1,0 +1,577 @@
+.testimonial-image {
+    width: 60px !important;
+    height: 60px;
+}
+.news-image {
+    height: 340px;
+}
+
+/* Singup and Subscription */
+.signup-section{
+    background: #f0f0f0;
+    min-height: 100%;
+    height: 100%;
+}
+.school-info-header{
+    margin:24px 0;
+}
+.school-info-header h2{
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.primary_input_field{
+    border: 1px solid rgba(212, 212, 212, 1);
+    font-size: 14px;
+    color: #741692;
+    padding-left: 20px;
+    height: 46px;
+    border-radius: 100px;
+    width: 100%;
+    padding-right: 15px;
+    font-weight: 500;
+    padding-top:0;
+}
+.primary_input .form-control:focus {
+    box-shadow: none !important;
+    border-color: rgba(130, 139, 178, 0.3);
+}
+input:focus-visible {
+    outline: 0px;
+    border-radius: 100px;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0rem transparent !important;
+    border-color: #bbc1c9;
+}
+.school-info-content{
+    background-color: #ffffff;
+    padding:30px;
+    border-radius: 20px;
+    margin-bottom:30px;
+}
+.school-info-content h3{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(212, 212, 212, 1);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.primary_textarea_field{
+    border-radius: 10px;
+}
+.primary_input_label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.primary_select {
+    width: 100%;
+    border: 1px solid rgba(212, 212, 212, 1);
+    border-radius: 3px;
+    height: 46px;
+    line-height: 44px;
+    font-size: 13px;
+    color: #741692;
+    padding: 0px 25px;
+    padding-left: 20px;
+    font-weight: 300;
+    border-radius: 30px;
+}
+.primary_select::placeholder {
+    color: #741692;
+    font-weight: 300;
+    opacity: 1;
+}
+.primary_select:after {
+    border-bottom: 0;
+    border-right: 0;
+    content: '';
+    display: block;
+    height: 10px;
+    margin-top: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 14px;
+    top: 10%;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    width: auto;
+    right: 25px;
+    content: '\f0d7';
+    border: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #828bb2;
+    font-size: 14px;
+    transform: translateY(-58%) rotate(0deg);
+}
+.primary_select.open::after {
+    content: '\f0d8';
+    transform: translateY(-58%) rotate(0deg);
+    margin: 0;
+}
+.primary_select:active,
+.primary_select.open,
+.primary_select:focus,
+.primary_select:hover {
+    border-color: rgba(130, 139, 178, 1);
+}
+.primary_select .list {
+    width: 100%;
+    background: #fff;
+    overflow: auto !important;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 1px;
+    z-index: 9999 !important;
+    box-shadow: 0px 10px 20px rgba(108, 39, 255, 0.3);
+}
+.primary_select .list .option {
+    color: #741692;
+}
+.primary_select .list .option:hover {
+    background-color: #f6f6f6;
+    color: #7c32ff;
+}
+.primary_select .list .option.selected {
+    font-weight: 400 !important;
+}
+.pos_primary_select .primary_select {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+.pos_small_select .primary_select {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    height: 32px;
+    line-height: 32px;
+}
+.nice-select .current{
+    font-weight:500;
+}
+.primary_input textarea{
+    padding:10px;
+}
+.subscription-plan{
+    margin-bottom: 30px;
+}
+.subscription-plan-details{
+    background-color: #ffffff;
+    padding:15px;
+    border:1px solid #D2D2E3;
+    border-radius: 20px;
+}
+.subscription-header{
+    color:#fff;
+    padding:15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.default-plan{
+    background-color: #68bb2b;
+}
+.advanced-plan{
+    background-color: #f60605;
+}
+.enterprise-plan{
+    background-color: #ff9d07;
+}
+.subscription-header img{
+    margin-right: 10px;
+}
+.subscription-header h4{
+    margin:0;
+    color:#fff;
+}
+.no-click{
+    pointer-events: none;
+}
+.default-checkbox, .advanced-checkbox, .enterprise-checkbox {
+    margin: 0;
+    line-height: 0;
+}
+.default-checkbox, .advanced-checkbox, .enterprise-checkbox{
+    display: inline-block;
+    font-size: 0;
+}
+.default-checkbox-input {
+    display: none;
+}
+.default-checkbox-input:checked + .default-checkbox-label:after {
+    opacity: 1;
+}
+.default-checkbox-label {
+    display: inline-block;
+    width: 20x;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.default-checkbox-label:before {
+    content: "✓";
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+}
+.default-checkbox-label:after {
+    content: "✓";
+    font-family: "Material Icons";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 100px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s opacity;
+    line-height: 21px;
+}
+.default-checkbox-label-grey:before {
+    border-color: #68bb2b;
+}
+.default-checkbox-label-grey:after {
+    background-color: #68bb2b;
+    color: #fff;
+}
+/* advanced plan */
+.advanced-checkbox-input {
+    display: none;
+}
+.advanced-checkbox-input:checked + .advanced-checkbox-label:after {
+    opacity: 1;
+}
+.advanced-checkbox-label {
+    display: inline-block;
+    width: 20x;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.advanced-checkbox-label:before {
+    content: "✓";
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+}
+.advanced-checkbox-label:after {
+    content: "✓";
+    font-family: "Material Icons";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 100px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s opacity;
+    line-height: 21px;
+}
+.advanced-checkbox-label-blue:before {
+    border-color: #f60605;
+}
+.advanced-checkbox-label-blue:after {
+    background-color: #f60605;
+    color: #fff;
+}
+/* Enterprise */
+.enterprise-checkbox-input {
+    display: none;
+}
+.enterprise-checkbox-input:checked + .enterprise-checkbox-label:after {
+    opacity: 1;
+}
+.enterprise-checkbox-label {
+    display: inline-block;
+    width: 20x;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.enterprise-checkbox-label:before {
+    content: "✓";
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+}
+.enterprise-checkbox-label:after {
+    content: "✓";
+    font-family: "Material Icons";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 100px;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s opacity;
+    line-height: 21px;
+}
+.enterprise-checkbox-label-pink:before {
+    border-color: #ff9d07;
+}
+.enterprise-checkbox-label-pink:after {
+    background-color: #ff9d07;
+    color: #fff;
+}
+
+.plan-list{
+    padding:10px;
+    margin:10px 0;
+}
+.plan-list-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.plan-list-content p{
+    margin-bottom: 0;
+    color: #741692;
+}
+.price-calculation p{
+    font-size:34px;
+    font-weight: bold;
+    color:#68bb2b;
+}
+.price-calculation p small{
+    font-size:16px;
+    font-weight:500;
+}
+.price-calculation{
+    margin: 30px 0 20px;
+}
+.plan-button button{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #EDE6F9;
+    padding: 10px;
+    border-radius: 10px;
+    color:#68bb2b;
+}
+.advanced-price-calculation p{
+    color:#f60605;
+}
+.advanced-plan-button button{
+    background-color: #f60605;
+    color:#ffffff;
+}
+.enterprise-price-calculation p{
+    color:#ff9d07;
+}
+.enterprise-plan-button button{
+    background-color: #ff9d07;
+    color:#ffffff;
+}
+
+.in_single_input input{
+    text-transform: lowercase;
+}
+.client .home-banner-area{
+    height:auto !imsportant;
+}
+.client .banner-inner .home-bg-content{
+    background: rgba(76, 92, 155, .9);
+    width:65%;
+    margin:0 auto;
+    padding:24px;
+}
+.client .banner-inner .home-bg-content h5{
+    font-weight: 800;
+    font-size: 27px;
+    border:0;
+}
+.client .banner-inner .home-bg-content p{
+    max-width: 90%;
+    margin-bottom:10px;
+    line-height: 23px;
+    font-size:13px;
+}
+.home-bg-content h6{
+    color: #fff;
+    font-size: 15px;
+    border-top: 1px solid #fff;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+.home-banner-inner{
+    background: url(../../frontend/img/homebanner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    text-align: center;
+    height:550px;
+}
+.about-banner-inner{
+    background: url(../../frontend/img/aboutus.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    text-align: center;
+    height:550px;
+}
+.contact-banner-inner{
+    background: url(../../frontend/img/contactus.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    text-align: center;
+    height:550px;
+}
+.footer_area{
+    background-color: #F2F6F6;
+}
+.footer-title{
+    margin-bottom:20px;
+}
+.footer-contacts p{
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-start;
+    word-break: break-all;
+}
+.footer-contacts p i{
+    font-size: 21px;
+    margin-right: 15px;
+}
+.footer-list a{
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.footer-list a:hover {
+    color: #00CBF8;
+    background: url(../../uploads/settings/footerarrow.svg) no-repeat 4px;
+    padding-left: 25px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+/*.subscribe-form {
+    position: relative;
+    margin-bottom: 20px;
+}
+.subscribe-form .form-control {
+    font-weight: 500;
+    font-size: 14px;
+    min-height: 48px;
+    color: #6B7280;
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px 0px 0px 6px;
+    margin: 0;
+    padding: 0px 92px 6px 15px;
+}
+.subscribe-form .btn {
+    font-weight: normal;
+    margin: 0;
+    padding: 11px 16px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0 6px 6px 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: #ffffff;
+    background: #741692;
+    border: 1px solid #741692;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+.social_widget{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social_widget a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #741692;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.social_widget a i{
+    color:#741692;
+}*/
+@media only screen and (max-width:767px){
+    .client .banner-inner .home-bg-content{
+        width: 85%;
+    }
+    .client .banner-inner .home-bg-content h5{
+        word-break: break-all;
+    }
+    .contact-map iframe{
+        width:100%;
+    }
+}
+@media only screen and (max-width:991px){
+    .subscription-plan-details{
+        margin-bottom:15px;
+    }
+    .management-type{
+        margin-top: 20px;
+    }
+    .school-info{
+        margin-top: 70px;
+    }
+    .home-banner-inner, .about-banner-inner, .contact-banner-inner{
+        background-size: cover;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1920px) {
+    .home-banner-inner, .about-banner-inner, .contact-banner-inner{
+        height:600px;
+    }
+}

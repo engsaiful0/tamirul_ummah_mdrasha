@@ -1,0 +1,22 @@
+<?php 
+return [
+    'parent_dashboard' => 'لوحة تحكم الوالدين',
+    'my_children' => 'أطفالي',
+    'calendar' => 'التقويم',
+    'total_subject' => 'إجمالي الموضوعات',
+    'total_notice' => 'إجمالي الإشعارات',
+    'total_exam' => 'إجمالي الامتحانات',
+    'total_online_exam' => 'إجمالي الامتحانات عبر الإنترنت',
+    'total_teachers' => 'إجمالي المعلمين',
+    'total_issued_book' => 'إجمالي الكتب المستعارة',
+    'total_pending_home_work' => 'إجمالي الواجبات المنزلية المعلقة',
+    'total_attendance_in_current_month' => 'إجمالي الحضور في الشهر الحالي',
+    'notice' => 'إشعار',
+    'exam' => 'امتحان',
+    'online_exam' => 'امتحان عبر الإنترنت',
+    'teachers' => 'المعلمين',
+    'issued_book' => 'الكتاب المُستعار',
+    'pending_home_work' => 'الواجب المنزلي المعلق',
+    'attendance_in_current_month' => 'الحضور في الشهر الحالي',
+    'parent_id' => 'معرف الوالد',
+];
